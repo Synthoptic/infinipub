@@ -1,0 +1,17 @@
+.video-slider-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.video-slider-item {
+  position: relative;
+  cursor: pointer;
+  width: 320px;
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
